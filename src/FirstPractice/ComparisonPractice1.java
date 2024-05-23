@@ -16,7 +16,5 @@ public class ComparisonPractice1 {
         boolean b = myMoney >= comPrice;
         System.out.println("Can buy a new computer ? " + b);
 
-
-
     }
 }
