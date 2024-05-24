@@ -289,3 +289,46 @@ if same - return true, if not - return false
 
 =============
 != >>> not equal operator
+
+Lesson 09
+
+AND OR Logical Comparison Operators
+
+&&  || (pipes)
+
+===============Scanner and String ===================
+
+
+------ String -----
+
+Library Class
+String name = "Hello";
+name >>> "Hello"
+
+String name = "Techtorial";
+System.out.println(name.charAt(100);    -  Run time error
+
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: Index 100 out of bounds for length 27
+at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+at java.base/java.lang.String.checkIndex(String.java:4881)
+at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:46)
+at java.base/java.lang.String.charAt(String.java:1582)
+at String_Scanne_Practice.Practice1.main(Practice1.java:25)
+
+
+
+-------Scanner -------
+
+import java.util.Scanner;
+
+Scanner scanner = new Scanner(System.in);
+System.out.println("Please enter your name");
+
+        String valueFromConsole = scanner.nextLine();
+        System.out.println(valueFromConsole + "<<<<<<<<");
