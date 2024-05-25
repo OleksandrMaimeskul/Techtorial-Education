@@ -332,3 +332,93 @@ System.out.println("Please enter your name");
 
         String valueFromConsole = scanner.nextLine();
         System.out.println(valueFromConsole + "<<<<<<<<");
+
+Lesson 10
+
+==========String =========
+
+String immutable >> it will not change unless reassigned.
+
+String name = "Water";
+
+String name1 = new String ();
+
+name >> water
+name1 >> blank, null
+** 'new' is a keyword to create a new object in java.
+
+String name2 = new Strng ("Saturday");
+name2 >> Satrurday
+
+String name3 = new String ();
+
+name 3 = "**B-l-u-e***";
+String name3 = "Text";
+
+String str2 = "\"abrakadabra\"";
+
+*String has indexing
+>> Index:
+
+Saturday
+01234567 <<< index start from '0'
+
+*Concatenation  >> attaching string (some value) to another string
+
+String str3 = "nice";
+
+str3 = str3 + "is a adjective" + 100 + true;
+
+
+==========String methods=========
+// concatenation
+// concat() >> method / function
+
+str3.concat("isCorrect");
+System.out.println(str3);
+
+        str3 = str3.concat("isCorrect");
+        System.out.println(str3);
+        System.out.println("----------------");
+
+        String flower = new String ("Rose");
+        flower = flower.concat(" is mostly red");
+        System.out.println(flower.concat("bla bla bla"));
+
+=========Scanner===========
+
+Scanner dataTaker = new Scanner(System.in);
+
+String name = "Oleksandr";
+System.out.println(name);
+System.out.println("Please enter name");
+Scanner dataTaker = new Scanner(System.in);
+name = dataTaker.nextLine();// >> it will read entire line from console
+System.out.println(name + "<<<<<<<");
+
+String s2 = dataTaker.next(); // next function will read string to very first space
+// New York, so will be only "New"
+
+int currentAge = dataTaker.nextInt();
+
+char letter1_ = scanner.nextLine().charAt(0);
+System.out.println("Your first letter of the drink is >>> " + letter1_);
+
+boolean b = scanner.nextBoolean();
+
+public static void main(String[] args) {
+Body of the main method / Scope of the main method
+
+    }
+
+char c = device.charAt(24);
+System.out.println(c);
+
+device = "microphone";
+int indexOfH = device.indexOf('h');
+System.out.println(indexOfH);
+int i = device.indexOf("phone");
+System.out.println(i);
+
+
+
