@@ -1,5 +1,7 @@
 package StringMethods;
 
+import java.util.Scanner;
+
 public class Practice1 {
     public static void main(String[] args) {
         // to be able to use string methods, you need to have a sting variable
@@ -37,6 +39,13 @@ public class Practice1 {
         System.out.println(indexOfH);
         int i = device.indexOf("phone");
         System.out.println(i);
+
+        device = "microphone";
+        int n = device.indexOf ('o');
+
+        int x = device.indexOf('o', n+1);
+
+
 
 
     }

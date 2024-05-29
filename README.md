@@ -421,4 +421,89 @@ int i = device.indexOf("phone");
 System.out.println(i);
 
 
+Lesson10
 
+methods of String()
+- concact() Can add more new String to existing
+  -Returns-
+  charAt() >> based on given index, it returns a char
+  lenghth() >> returns amounts of chars from string
+  indexOf() >> return index of first matching char from string
+
+
+
+
+
+// equals
+System.out.println("----------Equal Method---------");
+
+        String veggie = "cucumber";
+        String fruit = "strawberry";
+        System.out.println(veggie.equals(fruit));
+
+
+/*
+when you use .equals() method with string, it will compare string values
+when you use == with or any other object comparison, it will compare
+location of objects in memory
+*/
+
+System.out.println("------------Contains--------------");
+
+//contains
+
+boolean result5 = quote.contains(" ");
+System.out.println(result5);
+boolean result6 = quote.contains("do");
+
+//toUpperCase
+
+        quote = quote.toUpperCase();
+        System.out.println(quote);
+
+        quote = quote.toLowerCase();
+        System.out.println(quote);
+
+//startsWith() >> it will check if given string starts with given 'char/char sequence
+//it returns true / false
+boolean result = quote.startsWith("just");
+System.out.println(result);
+boolean result2 = quote.startsWith("j");
+System.out.println(result2);
+boolean result3 = quote.startsWith("just do it");
+System.out.println(result3);
+
+//endsWith()
+boolean result4 = quote.endsWith("it");
+System.out.println(result4);
+System.out.println(quote.endsWith("just do it!"));
+
+
+
+
+	String name1 ="sam"; // go to stack and keep here
+	String name2 ="sam"; // go to stack and keep here
+	
+	String name3 = new String("sam"); // going to heap
+	String name4 = new String("sam"); // going to heap and replace name3
+	
+	equals() comparing values;
+
+//equalsIgnoreCase ();
+String drink = "coffee";
+System.out.println(drink.equalsIgnoreCase("CoffEE"));
+String cookie = "coffEe";
+System.out.println(cookie.equals(drink)); // False
+System.out.println(drink.toLowerCase().equals(cookie.toLowerCase())); // True
+System.out.println(cookie.equalsIgnoreCase(drink)); // True
+
+//substring()
+// it will take one or two index numbers, it will return partial string from given index
+
+        // techtorial >> substring (indexNumber) >> substring(4) >> torial
+		// return type of the substring is 'string'
+		
+		String school = "Techtorial";
+        // cutting string from 't'
+        String part1 = school.substring(4);
+        System.out.println(part1);
