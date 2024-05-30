@@ -507,3 +507,49 @@ System.out.println(cookie.equalsIgnoreCase(drink)); // True
         // cutting string from 't'
         String part1 = school.substring(4);
         System.out.println(part1);
+Lesson12
+
+String Pool
+
+equals method is comparing values of sring objects
+== >> it will compare location of object / if objects are pointing to same location in the memory.
+
+String str5 = new String ("pinkish)
+
+
+
+
+
+
+//replace() >> it will replace given char / string with new char / string
+String color = "orange";
+String replace = color.replace('r', 'R');
+System.out.println(replace);
+color = color.replace('r', 'R');
+System.out.println(color);
+color = color.replace('o', '$');
+System.out.println(color);
+
+       color =  color.replace("e", "**");
+        System.out.println(color);
+       color = color.replace("###", "----");
+        System.out.println(color + "<<<<<");
+
+
+//Trim() >> it will remove leading and ending spaces from string
+
+
+
+-------------------If Statement ---------------------------
+
+if (booleanCondition){.......coding....}
+
+if (5>4) {"Hello THERE"}
+if (5>10) {"Hello THERE"}
+
+========Task=========
+Get a number user between 1 to 5 inclusive
+1-> print out >> your day is monday
+.......
+......
+......
