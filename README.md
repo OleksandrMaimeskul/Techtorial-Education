@@ -553,3 +553,75 @@ Get a number user between 1 to 5 inclusive
 .......
 ......
 ......
+
+Lesson 13
+
+String methods:
+
+replace(); > replace ('h', 't'); > replace ("hi", "$$")
+trim(); > remove begging and ending spaces
+substring(); > sustring(4); substring(2,10) cutting of the text
+
+
+==================
+If Statement :
+syntax >>> if (comdition){coding}
+
+Use scanner to get first letter of a day.
+
+when that letter is >> M >> It is Monday
+........
+S>> It is Saturday or Sunday
+Any other letter than above>>There is no such a day!
+
+}else{
+
+
+	+++++++++++++++
+	Find out if your house number is even or odd
+
+
+}else if(){}
+
+	if (T/F){CODE}
+	
+	String str = "Chicago";
+        if(str.equalsIgnoreCase("CHICAGO"))
+            System.out.println("It is a Windy City");
+        else System.out.println("Come to visit Chicago");
+        System.out.println("-------------");
+		
+		ONLY first sout after statement will be work with
+		
+--------------------------
+
+NESTED IF
+if(condition){
+codding
+if (condition{
+codding
+}
+
+}
+
+public static void main(String[] args) {
+/**
+* visit
+* if state is IL
+* >> city
+* if city is >>Des Plaines >> We are here
+* otherwize >> "Wrong Location"
+* if state is not IL:
+* >> You are in DIFFERENT STATE
+*/
+String state = "IL", city = "Chicago";
+if(state.equalsIgnoreCase("IL")){
+System.out.println("Correct");
+if (city.equalsIgnoreCase("Des Plaines")){
+System.out.println("We are here");
+} else {
+System.out.println("Wrong Location");
+}
+}
+}
+}
