@@ -625,3 +625,101 @@ System.out.println("Wrong Location");
 }
 }
 }
+  
+Lesson04
+Today's plan:
+
+If Statement
+
+Ternary Operator
+
+Switch statement
+
++++++++++++++++++++++++++++++++++++
+
+Refresh
+
+If statement
+-if(conditional check){}
+
+Else statement
+
+can be used with if
+can be used with else if()
+* else statement does not take any conditional check, because it is
+  attached to either if or else if statement
+  if(boolean){
+  } else {
+  }
+
+Else if Statement
+
+if (booleanCond1){
+} else if (condition2){
+
+} else if (condition3){
+} else{
+
+Nested version of If/Else/Else If
+* creating if statement that contains another if/else or else if statement
+  if (boolean ){
+  coding
+  if(boolean){
+  coding
+
+}else {
+coding
+if(boolean){
+}
+}
+Curcly Brackets
+
+
+
+-------------------------------------------
+
+Retirement
+
+calculcate age of person based on his/her DOB
+
+65 and up >> good >> an retire >> can retire
+
+55-64 >>   ok > need to pay 20k
+
+or >> you have to wait for another 30 years.
+
+-----------------------------------------------
+
+Ternary operator
+
+/*
+if your name is Jake, will print >> "your name is Jake"
+otherwise >> "you are not Jake"
+*/
+String name = "Jake";
+if(name.equalsIgnoreCase("Jake")){
+System.out.println("Your name is Jake");
+} else {
+System.out.println("your name isnot Jake");
+}
+System.out.println("------------------------");
+/// implementing above if condition with TERNARY
+
+        String result = name.equalsIgnoreCase("JAKE") ? "your name is Jake" : "You are not Jake";
+        System.out.println(result);
+        System.out.println("------------------------");
+
+        double myMoney = 10, $car = 20;
+
+        String result2 = myMoney >= $car ? "You can Buy that car " : "Need more money";
+        System.out.println("I am buying a car" + result2);
+        System.out.println("------------------------");
+        double result3 = myMoney >= $car ? myMoney + 1000 : myMoney - 1000;
+        System.out.println(result3);
+
+//        myMoney>= $car ? "Have enough money" : (myMoney - 1000)    - you cant store result of this ternary since
+// options are returning to different data type
+System.out.println(myMoney>= $car ? "Have enough money" : (myMoney - 1000)); // But you can print this
+		
+		
+		
