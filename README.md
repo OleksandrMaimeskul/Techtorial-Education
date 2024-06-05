@@ -720,6 +720,125 @@ System.out.println("------------------------");
 //        myMoney>= $car ? "Have enough money" : (myMoney - 1000)    - you cant store result of this ternary since
 // options are returning to different data type
 System.out.println(myMoney>= $car ? "Have enough money" : (myMoney - 1000)); // But you can print this
-		
-		
+
+Lesson15
+Softskills
+
+Lesson16
+
+=======Switch Statement ========
+
+switch (value) {
+case1 : code;
+case2 : code;
+
+}
+
+=========================
+Example
+int number = 35;
+switch(number) {
+case 30: coding1;     
+case 23: coding2;
+case 35: coding3;    // coding3 will be executed
+case 40: coding4;
+
+}
+
+some data types not supported by switch
+
+will print out all cases after matching case
+
+
+public static void main(String[] args) {
+int number = 6;
+
+        switch (number){
+            case 3:
+                System.out.println("The number is 3 "); 
+            case 6:
+                System.out.println("The number is 6 ");
+            case 1:
+                System.out.println("The number is 1 ");
+            case 9:
+                System.out.println("The number is 9 ");
+        }
+    }
+}
+
+
+
+Will print only required case due to break:
+
+public static void main(String[] args) {
+int number = 6;
+
+        switch (number){
+            case 3:
+                System.out.println("The number is 3 ");
+                break;
+            case 6:
+                System.out.println("The number is 6 ");
+                break;
+            case 1:
+                System.out.println("The number is 1 ");
+                break;
+            case 9:
+                System.out.println("The number is 9 ");
+                break;
+        }
+    }
+}
+
+
+If not any cases matching will print out without nothing
+
+But you can apply default with sout in the end of switch
+
+==============Nested Switch ===============
+
+apple, orange, strawberry, mango, dragon fruit
+
+// get user's favorite fruit name,
+
+if you have it >> " We have your favorite fruit...."
+if not>> " sorrry, we do not have your favorite..."
+
+
+public static void main(String[] args) {
+Scanner scanner = new Scanner(System.in);
+System.out.println(" What is favorite fruit: ");
+String chooseFruit = scanner.nextLine().toLowerCase();
+
+        switch(chooseFruit){
+            case "apple":
+            case "orange":
+            case "strawberry":
+            case "mango":
+            case "dragon fruit":
+                System.out.println("We have your favorite fruit : " + chooseFruit);
+                break;
+            default:
+                System.out.println("This fruit it doesnt present in store!");
+        }
+    }
+}
+Second possible variant:
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(" What is favorite fruit: ");
+        String chooseFruit = scanner.nextLine().toLowerCase();
+
+        switch(chooseFruit){
+            case "apple", "orange", "strawberry","mango","dragon fruit":
+                System.out.println("We have your favorite fruit : " + chooseFruit);
+                break;
+            default:
+                System.out.println("This fruit it doesnt present in store!");
+        }
+    }
+}
+
+can be added assignmet of String msg inside of each case
 		
