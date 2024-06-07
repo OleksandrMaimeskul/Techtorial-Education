@@ -841,4 +841,73 @@ Second possible variant:
 }
 
 can be added assignmet of String msg inside of each case
+lesson17&18
+
+-we can use loop if any logic is repeatong.
+
+-while
+-do-while
+-for
+-for-each
+
+---------
+
+while (condition ) {
+logic
+}
+
+----------
+-starting point
+-coding / logic
+-update statement
+-ending point
+
+----------
+
+--Infinite loop----
+*if the condition of the loop returns always 'true', that loop called "infinite loop"
+
+Ex:
+
+while (5==5){
+"welcome"
+}
+
+
+>>> coding  <<< thi line cannot be reached since above loop will be running infitely
+----------
+
+
+"\\s ", - regular expression
+
+
+--------------------
+Do-while
+
+do{
+codding
+
+} while (condition);
+
+-----------------
+>>looping, cycling, iteration
+
+
+public static void main(String[] args) {
+int a =6, b = 8;
+
+        do{
+            System.out.println("Hello");
+        } while (a<b);
+
+        int a1 =6, b1 = 10;
+
+        do{
+            System.out.println("Night");
+            b--;
+        } while (a<b);
+    }
+}
+
+
 		
