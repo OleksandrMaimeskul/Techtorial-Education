@@ -909,5 +909,87 @@ int a =6, b = 8;
     }
 }
 
+Lesson19
 
-		
+====================Random random = new Random();====================
+
+
+
+
+
+TASK1:        /*
+I want to create a head/tail game (flipping coin) with java codes;
+-At the beginning print "Game is started, MAKE a GUESS! HEAD/TAIL " So, let user know that the game started.
+- get user's guess as HEAD/TAIL
+- compare user's guess with your random number 0/1 --> random.nextInt(2) <--
+- if guess is correct, print       ---> "You are lucky, it is your day today."
+- if the guess isn't correct, print  -> "Sorry, that was not the correct choice!"
+- at the end, ask user "Do you want to play again? Y/N "
+- if the answer is Y --> keep playing (this is your while condition!!!)
+- if the answer is N --> print --> "Its Ok, SEE you NEXT time!"
+*/
+
+
+
+
+==================FOR LOOP==================
+
+for (variables ; condition ; UpdateStatement){
+codding
+}
+
+------------
+for ( variables  ; condition  ;   ) {
+
+updateStatement
+
+}
+
+-----exceptional case-------
+for (  ;   ;   ) {
+
+coditing
+
+}
+
+		Lesson 20
+String >> null
+Object  >>> null
+whole number type >> 0
+decimal type >>> false
+char type >>> empty
+
+boolean [} isarray = new boolean [9]
+
+
+-defaul values >> 0, 0.0, false,empty, null
+-**- size of array is fixed.
+-String str = "jhon"
+-String str2 = "hibachi"
+->> String [] things = {str,str2}
+int age = 9 ;
+char letter = 'Y';
+** can you store str, age and letter on an array?
+>>Object >>> is considered as mother class of all others in the java
+
+Object [] nixed Array = {.......]
+
+
+
+for ( declaration of variable : datasource ) {
+// logic
+}
+
+int studenNumber = 8;
+int [] numbers = {2,3,5,7,8,9}
+for (int number : numbers) {
+>>> number >> 2,3,5,7....
+
+}
+
+
+===========Split================
+substring(); >> "instagram".substring(5); >> gram >> String part
+split {}; it will split / cut given string from certaing value/s that you give
+word.split ("a"); >> returns String array >> [inst,gr,m]
+String [] parts = word.split ("a")

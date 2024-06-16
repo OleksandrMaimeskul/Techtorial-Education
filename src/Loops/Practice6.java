@@ -7,14 +7,16 @@ public class Practice6 {
      */
     public static void main(String[] args) {
 
-        String str = "chocolate";
+        String str = "saturday";
         int i = 0;
            do {
-               str = "-"+ str.charAt(i);
-               i++;
-               if (str.lastIndexOf('-')){
-                   System.out.print(str);
+
+               if (str.length()-1 == i) {
+                   System.out.print(str.charAt(i));
+               } else {
+                   System.out.print(str.charAt(i) + "-");
                }
+               i++;
         } while (i<str.length());
 
     }
