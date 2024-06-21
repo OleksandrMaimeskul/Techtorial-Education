@@ -993,3 +993,64 @@ substring(); >> "instagram".substring(5); >> gram >> String part
 split {}; it will split / cut given string from certaing value/s that you give
 word.split ("a"); >> returns String array >> [inst,gr,m]
 String [] parts = word.split ("a")
+
+Lesson21
+
+spli(); ?? Works only with String
+
+String str = "vacation";
+str.split{"a"; >>> [v,c,tion]
+
+=====================
+Multi Dimensional Array
+
+[[],[],[],[]]
+
+Lesson22
+Class - Object - Method
+
+- class is building block of project/app
+- we need class to be able to creaye object
+- object is an instance ( object) of a class
+  - object can have attributes / features
+  - object can have functions / methods
+
+
+datatype naming = value;
+datatype naming = new datatype();
+
+String str = new String ();
+
+int number = 25;
+
+Animal a = new Animal();
+
+========method ===========
+accessModifier returnType nameofMethod (Parameter/s){
+....scope/logic / coding ...}
+-accessModifier:
+-public
+-private
+-protected
+-default*
+
+-returnType:
+- void >> returns no data / product
+- any primitive
+- String
+- Object any type
+
+- nameofMethod:
+  - can be any word (meaningful wording that usually related with function / logic
+  - you cannot use java reserved keywords
+  -Parameter:
+  - any primitive
+  - String
+  - Object any type
+
+	  
+==================
+
+create a variable to represent gas for your car
+create a method that will reduce gas amount for each drive/travel by
+>! make sure car has 40 gl of gas !
